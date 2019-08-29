@@ -1,0 +1,1 @@
+angular-strict-tslint-rules
