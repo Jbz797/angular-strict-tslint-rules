@@ -1,0 +1,122 @@
+{
+  "rulesDirectory": [
+    "codelyzer",
+    "node_modules/tslint-eslint-rules/dist/rules",
+    "tslint-consistent-codestyle",
+    "tslint-microsoft-contrib"
+  ],
+  "extends": [
+    "angular-tslint-rules"
+  ],
+  "rules": {
+    "align": [
+      true,
+      "arguments",
+      "elements",
+      "members",
+      "parameters",
+      "statements"
+    ],
+    "array-bracket-spacing": [
+      true,
+      "never"
+    ],
+    "arrow-parens": false,
+    "brace-style": [
+      true,
+      "1tbs",
+      { "allowSingleLine": true }
+    ],
+    "block-spacing": true,
+    "component-selector": [
+      true,
+      "element",
+      "kebab-case"
+    ],
+    "curly": [true, "ignore-same-line"],
+    "function-name": [
+      true,
+      {
+        "function-regex": "^[a-z][\\w\\d]+$",
+        "method-regex": "^[a-z][\\w\\d]+$",
+        "private-method-regex": "^[a-z][\\w\\d]+$",
+        "protected-method-regex": "^[a-z][\\w\\d]+$",
+        "static-method-regex": "^[a-z][\\w\\d]+$"
+      }
+    ],
+    "import-name": true,
+    "max-line-length": false,
+    "member-access": true,
+    "new-parens": false,
+    "newline-before-return": false,
+    "newline-per-chained-call": false,
+    "no-consecutive-blank-lines": true,
+    "no-constant-condition": true,
+    "no-else-after-return": true,
+    "no-for-in": true,
+    "no-unnecessary-type-annotation": true,
+    "no-unused": true,
+    "no-var-before-return": true,
+    "no-void-expression": [
+      true,
+      "ignore-arrow-function-shorthand"
+    ],
+    "object-curly-spacing": [
+      true,
+      "always"
+    ],
+    "object-literal-sort-keys": [
+      true,
+      "ignore-blank-lines",
+      "shorthand-first"
+    ],
+    "ordered-imports": {
+      "options": {
+        "import-sources-order": "any",
+        "named-imports-order": "case-insensitive"
+      }
+    },
+    "prefer-array-literal": false,
+    "space-in-parens": [true, "never"],
+    "strict-boolean-expressions": false,
+    "strict-string-expressions": true,
+    "strict-type-predicates": true,
+    "ter-arrow-parens": [
+      true,
+      "as-needed",
+      { "requireForBlockBody": true }
+    ],
+    "template-i18n": [
+      true,
+      "check-id"
+    ],
+    "template-use-track-by-function": false,
+    "ter-func-call-spacing": true,
+    "ter-indent": [
+      true,
+      2,
+      { "SwitchCase": 1 }
+    ],
+    "ter-prefer-arrow-callback": [
+      true
+    ],
+    "ter-computed-property-spacing": true,
+    "typedef": [
+      true,
+      "array-destructuring",
+      "call-signature",
+      "member-variable-declaration",
+      "parameter",
+      "property-declaration",
+      "variable-declaration-ignore-function"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ]
+  }
+}
