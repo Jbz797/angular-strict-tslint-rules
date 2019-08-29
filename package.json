@@ -1,5 +1,5 @@
 {
-  "name": "angular-tslint-rules",
+  "name": "angular-strict-tslint-rules",
   "version": "0.0.1",
   "description": "Shared TSLint & codelyzer rules to enforce a consistent code style for Angular development",
   "repository": {
