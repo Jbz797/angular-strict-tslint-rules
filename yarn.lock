@@ -51,6 +51,11 @@
     reflect-metadata "^0.1.12"
     tslib "^1.8.1"
 
+angular-tslint-rules@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/angular-tslint-rules/-/angular-tslint-rules-1.18.0.tgz#99356849e2a31e55574c1238535035473e8877a5"
+  integrity sha512-QKEoypsbLCGaM3rCtU/tgO53ogAMOBUHxX0jg/dJ53wKOWP1KCGGckiEGiPcUeay/R9iWLbmXKvziJsH7WAceA==
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"
@@ -441,7 +446,7 @@ tslint-microsoft-contrib@^6.2.0:
   dependencies:
     tsutils "^2.27.2 <2.29.0"
 
-tslint@>=5.14.0:
+tslint@^5.14.0:
   version "5.19.0"
   resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.19.0.tgz#a2cbd4a7699386da823f6b499b8394d6c47bb968"
   integrity sha512-1LwwtBxfRJZnUvoS9c0uj8XQtAnyhWr9KlNvDIdB+oXyT+VpsOAaEhEgKi1HrZ8rq0ki/AAnbGSv4KM6/AfVZw==
