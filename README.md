@@ -1,4 +1,6 @@
-Stricts rules to enforce a consistent code style for [Angular] development
+# angular-strict-tslint-rules
+
+Stricts rules to enforce a consistent code style for **Angular** development
 
 > Please active "noImplicitAny" and "strict" in your tsconfig when you use this rules.
 
