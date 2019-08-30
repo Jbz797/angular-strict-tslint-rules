@@ -1,5 +1,7 @@
 # angular-strict-tslint-rules
 
+[![Downloads](https://img.shields.io/npm/dm/angular-strict-tslint-rules.svg?style=flat)](https://npmjs.org/package/angular-strict-tslint-rules)
+
 Stricts rules to enforce a consistent code style for **Angular** development
 
 > For better consistency, please enable "noImplicitAny" and "strict" in your tsconfig.
