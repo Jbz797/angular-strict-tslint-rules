@@ -28,3 +28,6 @@ In `tslint.json`:
 * [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
 * [tslint-eslint-rule](https://github.com/buzinas/tslint-eslint-rules)
 * [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
+
+## Extends
+* [angular-tslint-rules](https://github.com/fulls1z3/angular-tslint-rules)
