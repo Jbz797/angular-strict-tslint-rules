@@ -12,6 +12,12 @@ Stricts rules to enforce a consistent code style for **Angular** development
 npm install angular-strict-tslint-rules --save-dev
 ```
 
+or
+
+```sh
+yarn add angular-strict-tslint-rules --dev
+```
+
 ## Usage
 
 In `tslint.json`:
