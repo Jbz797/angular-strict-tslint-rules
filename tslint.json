@@ -45,6 +45,7 @@
       }
     ],
     "import-name": true,
+    "invalid-void": true,
     "max-line-length": false,
     "member-access": true,
     "new-parens": false,
@@ -78,7 +79,16 @@
     },
     "prefer-array-literal": false,
     "space-in-parens": [true, "never"],
-    "strict-boolean-expressions": false,
+    "strict-boolean-expressions": [
+      true,
+      "allow-enum",
+      "allow-mix",
+      "allow-number",
+      "allow-rhs",
+      "allow-string",
+      "allow-undefined-union",
+      "ignore-rhs"
+    ],
     "strict-string-expressions": true,
     "strict-type-predicates": true,
     "ter-arrow-parens": [
