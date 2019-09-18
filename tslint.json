@@ -45,7 +45,6 @@
       }
     ],
     "import-name": true,
-    "invalid-void": true,
     "max-line-length": false,
     "member-access": true,
     "new-parens": false,
@@ -54,7 +53,6 @@
     "no-consecutive-blank-lines": true,
     "no-constant-condition": true,
     "no-else-after-return": true,
-    "no-for-in": true,
     "no-unnecessary-type-annotation": true,
     "no-unused": true,
     "no-var-before-return": true,
@@ -89,7 +87,6 @@
       "allow-undefined-union",
       "ignore-rhs"
     ],
-    "strict-string-expressions": true,
     "strict-type-predicates": true,
     "ter-arrow-parens": [
       true,
