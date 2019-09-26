@@ -25,7 +25,9 @@
     "brace-style": [
       true,
       "1tbs",
-      { "allowSingleLine": true }
+      {
+        "allowSingleLine": true
+      }
     ],
     "block-spacing": true,
     "component-selector": [
@@ -33,7 +35,10 @@
       "element",
       "kebab-case"
     ],
-    "curly": [true, "ignore-same-line"],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
     "function-name": [
       true,
       {
@@ -47,6 +52,75 @@
     "import-name": true,
     "max-line-length": false,
     "member-access": true,
+    "naming-convention": [
+      true,
+      {
+        "type": "default",
+        "format": "camelCase",
+        "leadingUnderscore": "forbid",
+        "trailingUnderscore": "forbid"
+      },
+      {
+        "type": "variable",
+        "modifiers": [
+          "global",
+          "const"
+        ],
+        "format": [
+          "camelCase",
+          "UPPER_CASE"
+        ]
+      },
+      {
+        "type": "functionVariable",
+        "modifiers": [
+          "export",
+          "const"
+        ],
+        "format": "camelCase"
+      },
+      {
+        "type": "parameter",
+        "modifiers": "unused",
+        "leadingUnderscore": "allow"
+      },
+      {
+        "type": "member",
+        "modifiers": "private",
+        "leadingUnderscore": "require"
+      },
+      {
+        "type": "member",
+        "modifiers": "protected",
+        "leadingUnderscore": "require"
+      },
+      {
+        "type": "method",
+        "leadingUnderscore": "forbid"
+      },
+      {
+        "type": "method",
+        "filter": "^toJSON$",
+        "format": null
+      },
+      {
+        "type": "type",
+        "format": "PascalCase"
+      },
+      {
+        "type": "class",
+        "modifiers": "abstract",
+        "prefix": "Abstract"
+      },
+      {
+        "type": "genericTypeParameter",
+        "prefix": "T"
+      },
+      {
+        "type": "enumMember",
+        "format": "PascalCase"
+      }
+    ],
     "new-parens": false,
     "newline-before-return": false,
     "newline-per-chained-call": false,
@@ -76,7 +150,10 @@
       }
     },
     "prefer-array-literal": false,
-    "space-in-parens": [true, "never"],
+    "space-in-parens": [
+      true,
+      "never"
+    ],
     "strict-boolean-expressions": [
       true,
       "allow-enum",
@@ -91,7 +168,9 @@
     "ter-arrow-parens": [
       true,
       "as-needed",
-      { "requireForBlockBody": true }
+      {
+        "requireForBlockBody": true
+      }
     ],
     "template-i18n": [
       true,
@@ -102,7 +181,9 @@
     "ter-indent": [
       true,
       2,
-      { "SwitchCase": 1 }
+      {
+        "SwitchCase": 1
+      }
     ],
     "ter-prefer-arrow-callback": [
       true

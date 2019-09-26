@@ -1,31 +1,32 @@
 {
   "name": "angular-strict-tslint-rules",
-  "version": "0.0.9",
-  "description": "Shared TSLint & codelyzer rules to enforce a consistent code style for Angular development",
+  "version": "0.1.0",
+  "description": "Stricts rules to enforce a consistent code style for Angular development",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fulls1z3/angular-tslint-rules.git"
+    "url": "https://github.com/Jbz797/angular-strict-tslint-rules"
   },
   "keywords": [
+    "angular",
     "linting-rules",
+    "stricts-rules",
     "tslint",
-    "frontend",
-    "angular"
+    "typescript"
   ],
   "author": {
-    "name": "Burak Tasci"
+    "name": "Jean-benoit Gautier"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fulls1z3/angular-tslint-rules/issues"
+    "url": "https://github.com/Jbz797/angular-strict-tslint-rules/issues"
   },
-  "homepage": "https://github.com/fulls1z3/angular-tslint-rules#readme",
+  "homepage": "https://github.com/Jbz797/angular-strict-tslint-rules",
   "main": "./tslint.json",
   "dependencies": {
-    "angular-tslint-rules": "1.20.0",
-    "codelyzer": "5.1.0",
+    "angular-tslint-rules": "1.20.1",
+    "codelyzer": "5.1.1",
     "tslint": "5.20.0",
-    "tslint-consistent-codestyle": "1.15.1",
+    "tslint-consistent-codestyle": "1.16.0",
     "tslint-eslint-rules": "5.4.0",
     "tslint-microsoft-contrib": "6.2.0"
   },
@@ -35,10 +36,5 @@
     "rxjs": "^6.5.0",
     "typescript": "^3.5.0",
     "zone.js": "^0.9.0"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }
