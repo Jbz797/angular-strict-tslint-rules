@@ -1,40 +1,41 @@
 {
-  "name": "angular-strict-tslint-rules",
-  "version": "0.1.0",
-  "description": "Stricts rules to enforce a consistent code style for Angular development",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Jbz797/angular-strict-tslint-rules"
-  },
-  "keywords": [
-    "angular",
-    "linting-rules",
-    "stricts-rules",
-    "tslint",
-    "typescript"
-  ],
-  "author": {
-    "name": "Jean-benoit Gautier"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Jbz797/angular-strict-tslint-rules/issues"
-  },
-  "homepage": "https://github.com/Jbz797/angular-strict-tslint-rules",
-  "main": "./tslint.json",
-  "dependencies": {
-    "angular-tslint-rules": "1.20.1",
-    "codelyzer": "5.1.1",
-    "tslint": "5.20.0",
-    "tslint-consistent-codestyle": "1.16.0",
-    "tslint-eslint-rules": "5.4.0",
-    "tslint-microsoft-contrib": "6.2.0"
-  },
-  "devDependencies": {
-    "@angular/compiler": "^8.0.0",
-    "@angular/core": "^8.0.0",
-    "rxjs": "^6.5.0",
-    "typescript": "^3.5.0",
-    "zone.js": "^0.9.0"
-  }
+    "name": "angular-strict-tslint-rules",
+    "version": "0.1.1",
+    "description": "Stricts rules to enforce a consistent code style for Angular development",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jbz797/angular-strict-tslint-rules"
+    },
+    "keywords": [
+        "angular",
+        "linting-rules",
+        "stricts-rules",
+        "tslint",
+        "typescript"
+    ],
+    "author": {
+        "name": "Jean-benoit Gautier"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Jbz797/angular-strict-tslint-rules/issues"
+    },
+    "homepage": "https://github.com/Jbz797/angular-strict-tslint-rules",
+    "main": "./tslint.json",
+    "dependencies": {
+        "angular-tslint-rules": "1.20.4",
+        "codelyzer": "5.2.2",
+        "tslint": "6.1.1",
+        "tslint-consistent-codestyle": "1.16.0",
+        "tslint-eslint-rules": "5.4.0",
+        "tslint-microsoft-contrib": "6.2.0"
+    },
+    "devDependencies": {
+        "@angular/compiler": "^9.1.1",
+        "@angular/core": "^9.1.1",
+        "rxjs": "^6.5.5",
+        "tslib": "^1.0.0",
+        "typescript": "^3.0.0",
+        "zone.js": "^0.10.0"
+    }
 }

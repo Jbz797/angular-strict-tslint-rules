@@ -1,10 +1,23 @@
 # angular-strict-tslint-rules
 
-[![Downloads](https://img.shields.io/npm/dm/angular-strict-tslint-rules.svg?style=flat)](https://npmjs.org/package/angular-strict-tslint-rules)
-
 Stricts rules to enforce a consistent code style for **Angular** development
 
-> For better consistency, please enable "noImplicitAny" and "strict" in your tsconfig.
+## Tsconfig
+
+For better consistency, please, i suggest you to add this to your `tsconfig.json` :
+
+```javascript
+{
+  "compilerOptions": {
+    "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
+    "noImplicitAny": true // Raise error on expressions and declarations with an implied any type.
+    "noUnusedLocals": true, // Report errors on unused locals
+    "noUnusedParameters": true, // Report errors on unused parameters
+    "noImplicitReturns": true, // Report an error when not all code paths in function return a value.
+    "strict": true, // Enable all strict type checking options
+  }
+}
+```
 
 ## Installation
 
