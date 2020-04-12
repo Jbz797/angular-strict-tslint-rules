@@ -1,6 +1,6 @@
 {
     "name": "angular-strict-tslint-rules",
-    "version": "0.1.1",
+    "version": "0.1.3",
     "description": "Stricts rules to enforce a consistent code style for Angular development",
     "repository": {
         "type": "git",
@@ -31,9 +31,9 @@
         "tslint-microsoft-contrib": "6.2.0"
     },
     "devDependencies": {
-        "@angular/compiler": "^9.1.1",
-        "@angular/core": "^9.1.1",
-        "rxjs": "^6.5.5",
+        "@angular/compiler": "^9.0.0",
+        "@angular/core": "^9.0.0",
+        "rxjs": "^6.0.0",
         "tslib": "^1.0.0",
         "typescript": "^3.0.0",
         "zone.js": "^0.10.0"
