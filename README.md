@@ -10,7 +10,7 @@ For better consistency, please, i suggest you to add this to your `tsconfig.json
 {
   "compilerOptions": {
     "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
-    "noImplicitAny": true // Raise error on expressions and declarations with an implied any type.
+    "noImplicitAny": true, // Raise error on expressions and declarations with an implied any type.
     "noImplicitReturns": true, // Report an error when not all code paths in function return a value.
     "noUnusedLocals": true, // Report errors on unused locals
     "noUnusedParameters": true, // Report errors on unused parameters
