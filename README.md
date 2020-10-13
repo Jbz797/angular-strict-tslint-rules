@@ -15,7 +15,7 @@ For better consistency, please, i suggest you to add this to your `tsconfig.json
     "noUnusedLocals": true, // Report errors on unused locals
     "noUnusedParameters": true, // Report errors on unused parameters
     "strict": true, // Enable all strict type checking options
-  }
+  },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true, // Enables the binding expression validation phase of the template compiler
     "strictInjectionParameters": true, // Reports an error for a supplied parameter whose injection type cannot be determined
