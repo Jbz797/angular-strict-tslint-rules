@@ -1,216 +1,197 @@
 {
-    "rulesDirectory": [
-        "codelyzer",
-        "../tslint-eslint-rules/dist/rules",
-        "tslint-consistent-codestyle",
-        "tslint-microsoft-contrib"
+  "rulesDirectory": ["codelyzer", "../tslint-eslint-rules/dist/rules", "tslint-consistent-codestyle", "tslint-microsoft-contrib"],
+  "extends": ["angular-tslint-rules"],
+  "rules": {
+    "align": [true, "arguments", "elements", "members", "parameters", "statements"],
+    "array-bracket-spacing": [true, "never"],
+    "arrow-parens": false,
+    "brace-style": [
+      true,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
     ],
-    "extends": [
-        "angular-tslint-rules"
+    "block-spacing": true,
+    "component-class-suffix": [true, "Component", "Page", "Modal"],
+    "component-selector": [true, "element", "kebab-case"],
+    "curly": [true, "ignore-same-line"],
+    "function-name": [
+      true,
+      {
+        "function-regex": "^[a-z][\\w\\d]+$",
+        "method-regex": "^[a-z][\\w\\d]+$",
+        "private-method-regex": "^[a-z][\\w\\d]+$",
+        "protected-method-regex": "^[a-z][\\w\\d]+$",
+        "static-method-regex": "^[a-z][\\w\\d]+$"
+      }
     ],
-    "rules": {
-        "align": [
-            true,
-            "arguments",
-            "elements",
-            "members",
-            "parameters",
-            "statements"
-        ],
-        "array-bracket-spacing": [
-            true,
-            "never"
-        ],
-        "arrow-parens": false,
-        "brace-style": [
-            true,
-            "1tbs",
-            {
-                "allowSingleLine": true
-            }
-        ],
-        "block-spacing": true,
-        "component-class-suffix": [
-            true,
-            "Component",
-            "Page",
-            "Modal"
-        ],
-        "component-selector": [
-            true,
-            "element",
-            "kebab-case"
-        ],
-        "curly": [
-            true,
-            "ignore-same-line"
-        ],
-        "function-name": [
-            true,
-            {
-                "function-regex": "^[a-z][\\w\\d]+$",
-                "method-regex": "^[a-z][\\w\\d]+$",
-                "private-method-regex": "^[a-z][\\w\\d]+$",
-                "protected-method-regex": "^[a-z][\\w\\d]+$",
-                "static-method-regex": "^[a-z][\\w\\d]+$"
-            }
-        ],
-        "import-name": true,
-        "max-line-length": false,
-        "member-access": true,
-        "naming-convention": [
-            true,
-            {
-                "type": "default",
-                "format": "camelCase",
-                "leadingUnderscore": "forbid",
-                "trailingUnderscore": "forbid"
-            },
-            {
-                "type": "variable",
-                "modifiers": [
-                    "global",
-                    "const"
-                ],
-                "format": [
-                    "camelCase",
-                    "UPPER_CASE"
-                ]
-            },
-            {
-                "type": "functionVariable",
-                "modifiers": [
-                    "export",
-                    "const"
-                ],
-                "format": "camelCase"
-            },
-            {
-                "type": "parameter",
-                "modifiers": "unused",
-                "leadingUnderscore": "allow"
-            },
-            {
-                "type": "member",
-                "modifiers": "private",
-                "leadingUnderscore": "require"
-            },
-            {
-                "type": "member",
-                "modifiers": "protected",
-                "leadingUnderscore": "require"
-            },
-            {
-                "type": "method",
-                "leadingUnderscore": "forbid"
-            },
-            {
-                "type": "method",
-                "filter": "^toJSON$",
-                "format": null
-            },
-            {
-                "type": "type",
-                "format": "PascalCase"
-            },
-            {
-                "type": "class",
-                "modifiers": "abstract",
-                "prefix": "Abstract"
-            },
-            {
-                "type": "genericTypeParameter",
-                "prefix": "T"
-            },
-            {
-                "type": "enumMember",
-                "format": "PascalCase"
-            }
-        ],
-        "new-parens": false,
-        "newline-before-return": false,
-        "newline-per-chained-call": false,
-        "no-consecutive-blank-lines": true,
-        "no-constant-condition": true,
-        "no-else-after-return": true,
-        "no-unnecessary-type-annotation": true,
-        "no-unused": true,
-        "no-var-before-return": true,
-        "no-void-expression": [
-            true,
-            "ignore-arrow-function-shorthand"
-        ],
-        "object-curly-spacing": [
-            true,
-            "always"
-        ],
-        "object-literal-sort-keys": [
-            true,
-            "ignore-blank-lines",
-            "shorthand-first"
-        ],
-        "ordered-imports": {
-            "options": {
-                "import-sources-order": "any",
-                "named-imports-order": "case-insensitive"
-            }
-        },
-        "prefer-array-literal": false,
-        "space-in-parens": [
-            true,
-            "never"
-        ],
-        "strict-boolean-expressions": [
-            true,
-            "allow-enum",
-            "allow-mix",
-            "allow-number",
-            "allow-rhs",
-            "allow-string",
-            "allow-undefined-union",
-            "ignore-rhs"
-        ],
-        "strict-type-predicates": true,
-        "ter-arrow-parens": [
-            true,
-            "as-needed",
-            {
-                "requireForBlockBody": true
-            }
-        ],
-        "template-i18n": [
-            true,
-            "check-id"
-        ],
-        "template-use-track-by-function": false,
-        "ter-func-call-spacing": true,
-        "ter-indent": [
-            true,
-            2,
-            {
-                "SwitchCase": 1
-            }
-        ],
-        "ter-prefer-arrow-callback": [
-            true
-        ],
-        "ter-computed-property-spacing": true,
-        "typedef": [
-            true,
-            "array-destructuring",
-            "call-signature",
-            "member-variable-declaration",
-            "parameter",
-            "property-declaration",
-            "variable-declaration-ignore-function"
-        ],
-        "trailing-comma": [
-            true,
-            {
-                "multiline": "always",
-                "singleline": "never",
-                "esSpecCompliant": true
-            }
+    "import-name": true,
+    "max-line-length": false,
+    "member-access": true,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          {
+            "name": "public static field",
+            "kinds": ["public-static-field", "protected-static-field"]
+          },
+          {
+            "name": "private static field",
+            "kinds": ["private-static-field"]
+          },
+          {
+            "name": "public instance field",
+            "kinds": ["public-instance-field", "protected-instance-field"]
+          },
+          {
+            "name": "private instance field",
+            "kinds": ["private-instance-field"]
+          },
+          {
+            "name": "public static method",
+            "kinds": ["public-static-method", "protected-static-method", "public-static-accessor", "protected-static-accessor"]
+          },
+          {
+            "name": "private static method",
+            "kinds": ["private-static-method", "private-static-accessor"]
+          },
+          {
+            "name": "public instance method",
+            "kinds": [
+              "public-constructor",
+              "protected-constructor",
+              "public-instance-method",
+              "protected-instance-method",
+              "public-instance-accessor",
+              "protected-instance-accessor"
+            ]
+          },
+          {
+            "name": "private instance method",
+            "kinds": ["private-constructor", "private-instance-method", "private-instance-accessor"]
+          }
         ]
-    }
+      }
+    ],
+    "naming-convention": [
+      true,
+      {
+        "type": "default",
+        "format": "camelCase",
+        "leadingUnderscore": "forbid",
+        "trailingUnderscore": "forbid"
+      },
+      {
+        "type": "variable",
+        "modifiers": ["global", "const"],
+        "format": ["camelCase", "UPPER_CASE"]
+      },
+      {
+        "type": "functionVariable",
+        "modifiers": ["export", "const"],
+        "format": "camelCase"
+      },
+      {
+        "type": "parameter",
+        "modifiers": "unused",
+        "leadingUnderscore": "allow"
+      },
+      {
+        "type": "member",
+        "modifiers": "private",
+        "leadingUnderscore": "require"
+      },
+      {
+        "type": "member",
+        "modifiers": "protected",
+        "leadingUnderscore": "require"
+      },
+      {
+        "type": "method",
+        "leadingUnderscore": "forbid"
+      },
+      {
+        "type": "method",
+        "filter": "^toJSON$",
+        "format": null
+      },
+      {
+        "type": "type",
+        "format": "PascalCase"
+      },
+      {
+        "type": "class",
+        "modifiers": "abstract",
+        "prefix": "Abstract"
+      },
+      {
+        "type": "genericTypeParameter",
+        "prefix": "T"
+      },
+      {
+        "type": "enumMember",
+        "format": "PascalCase"
+      }
+    ],
+    "new-parens": false,
+    "newline-before-return": false,
+    "newline-per-chained-call": false,
+    "no-consecutive-blank-lines": true,
+    "no-constant-condition": true,
+    "no-else-after-return": true,
+    "no-unnecessary-type-annotation": true,
+    "no-unused": true,
+    "no-var-before-return": true,
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"],
+    "object-curly-spacing": [true, "always"],
+    "object-literal-sort-keys": [true, "ignore-blank-lines", "shorthand-first"],
+    "ordered-imports": {
+      "options": {
+        "import-sources-order": "any",
+        "named-imports-order": "case-insensitive"
+      }
+    },
+    "prefer-array-literal": false,
+    "space-in-parens": [true, "never"],
+    "strict-boolean-expressions": [true, "allow-enum", "allow-mix", "allow-number", "allow-rhs", "allow-string", "allow-undefined-union", "ignore-rhs"],
+    "strict-type-predicates": true,
+    "ter-arrow-parens": [
+      true,
+      "as-needed",
+      {
+        "requireForBlockBody": true
+      }
+    ],
+    "template-i18n": [true, "check-id"],
+    "template-use-track-by-function": false,
+    "ter-func-call-spacing": true,
+    "ter-indent": [
+      true,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "ter-prefer-arrow-callback": [true],
+    "ter-computed-property-spacing": true,
+    "typedef": [
+      true,
+      "array-destructuring",
+      "call-signature",
+      "member-variable-declaration",
+      "parameter",
+      "property-declaration",
+      "variable-declaration-ignore-function"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ]
+  }
 }
