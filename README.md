@@ -16,6 +16,12 @@ For better consistency, please, i suggest you to add this to your `tsconfig.json
     "noUnusedParameters": true, // Report errors on unused parameters
     "strict": true, // Enable all strict type checking options
   }
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true, // Enables the binding expression validation phase of the template compiler
+    "strictInjectionParameters": true, // Reports an error for a supplied parameter whose injection type cannot be determined
+    "strictInputAccessModifiers": true, // Whether access modifiers such as private/protected/readonly are honored when assigning a binding expression to an @Input()
+    "strictTemplates": true // Enables strict template type checking
+  }
 }
 ```
 
@@ -42,11 +48,13 @@ In `tslint.json`:
 ```
 
 ## Rules
-* [TSLint](https://github.com/palantir/tslint)
-* [codelyzer](https://github.com/mgechev/codelyzer)
-* [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
-* [tslint-eslint-rule](https://github.com/buzinas/tslint-eslint-rules)
-* [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
+
+- [TSLint](https://github.com/palantir/tslint)
+- [codelyzer](https://github.com/mgechev/codelyzer)
+- [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
+- [tslint-eslint-rule](https://github.com/buzinas/tslint-eslint-rules)
+- [tslint-microsoft-contrib](https://github.com/Microsoft/tslint-microsoft-contrib)
 
 ## Extends
-* [angular-tslint-rules](https://github.com/fulls1z3/angular-tslint-rules)
+
+- [angular-tslint-rules](https://github.com/fulls1z3/angular-tslint-rules)
