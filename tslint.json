@@ -154,6 +154,7 @@
       }
     },
     "prefer-array-literal": false,
+    "prefer-conditional-expression": false,
     "space-in-parens": [true, "never"],
     "strict-boolean-expressions": [true, "allow-enum", "allow-mix", "allow-number", "allow-rhs", "allow-string", "allow-undefined-union", "ignore-rhs"],
     "strict-type-predicates": true,
