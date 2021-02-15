@@ -158,6 +158,9 @@
     "space-in-parens": [true, "never"],
     "strict-boolean-expressions": [true, "allow-enum", "allow-mix", "allow-number", "allow-rhs", "allow-string", "allow-undefined-union", "ignore-rhs"],
     "strict-type-predicates": true,
+    "template-cyclomatic-complexity": [true, 6],
+    "template-i18n": [true, "check-id"],
+    "template-use-track-by-function": false,
     "ter-arrow-parens": [
       true,
       "as-needed",
@@ -165,8 +168,6 @@
         "requireForBlockBody": true
       }
     ],
-    "template-i18n": [true, "check-id"],
-    "template-use-track-by-function": false,
     "ter-func-call-spacing": true,
     "ter-indent": [
       true,
@@ -177,15 +178,6 @@
     ],
     "ter-prefer-arrow-callback": [true],
     "ter-computed-property-spacing": true,
-    "typedef": [
-      true,
-      "array-destructuring",
-      "call-signature",
-      "member-variable-declaration",
-      "parameter",
-      "property-declaration",
-      "variable-declaration-ignore-function"
-    ],
     "trailing-comma": [
       true,
       {
@@ -193,6 +185,7 @@
         "singleline": "never",
         "esSpecCompliant": true
       }
-    ]
+    ],
+    "typedef": [true, "array-destructuring", "call-signature", "member-variable-declaration", "parameter", "property-declaration", "variable-declaration-ignore-function"]
   }
 }
