@@ -159,7 +159,7 @@
     "space-in-parens": [true, "never"],
     "strict-boolean-expressions": [true, "allow-enum", "allow-mix", "allow-number", "allow-rhs", "allow-string", "allow-undefined-union", "ignore-rhs"],
     "strict-type-predicates": true,
-    "template-cyclomatic-complexity": [true, 6],
+    "template-cyclomatic-complexity": [true, 7],
     "template-i18n": [true, "check-id"],
     "template-use-track-by-function": false,
     "ter-arrow-parens": [
