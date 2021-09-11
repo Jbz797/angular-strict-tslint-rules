@@ -142,6 +142,7 @@
     "no-consecutive-blank-lines": true,
     "no-constant-condition": true,
     "no-else-after-return": true,
+    "no-non-null-assertion": false,
     "no-unnecessary-type-annotation": true,
     "no-unused": true,
     "no-var-before-return": true,
