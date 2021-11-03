@@ -60,14 +60,7 @@
           },
           {
             "name": "public instance method",
-            "kinds": [
-              "public-constructor",
-              "protected-constructor",
-              "public-instance-method",
-              "protected-instance-method",
-              "public-instance-accessor",
-              "protected-instance-accessor"
-            ]
+            "kinds": ["public-constructor", "protected-constructor", "public-instance-method", "protected-instance-method", "public-instance-accessor", "protected-instance-accessor"]
           },
           {
             "name": "private instance method",
@@ -143,6 +136,7 @@
     "no-constant-condition": true,
     "no-else-after-return": true,
     "no-non-null-assertion": false,
+    "no-object-literal-type-assertion": false,
     "no-unnecessary-type-annotation": true,
     "no-unused": true,
     "no-var-before-return": true,
