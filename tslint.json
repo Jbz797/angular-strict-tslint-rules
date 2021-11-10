@@ -132,7 +132,6 @@
     "new-parens": false,
     "newline-before-return": false,
     "newline-per-chained-call": false,
-    "no-any": true,
     "no-consecutive-blank-lines": true,
     "no-constant-condition": true,
     "no-else-after-return": true,
