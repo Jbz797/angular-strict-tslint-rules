@@ -12,7 +12,6 @@ For better consistency, please, i suggest you to add this to your `tsconfig.json
     "esModuleInterop": true, // Disables namespace imports (import * as fs from "fs") and enables CJS/AMD/UMD style imports (import fs from "fs")
     "noImplicitOverride": true, // Ensure overriding members in derived classes are marked with an override modifier
     "noImplicitReturns": true, // Report an error when not all code paths in function return a value
-    "noPropertyAccessFromIndexSignature": true // Enforces using indexed accessors for keys declared using an indexed type
     "noUnusedLocals": true, // Report errors on unused locals
     "noUnusedParameters": true, // Report errors on unused parameters
     "strict": true, // Enable all strict type checking options
